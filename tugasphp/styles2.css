@@ -1,0 +1,122 @@
+
+.navbar {
+    text-align: center;
+}
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+
+.container {
+    display: flex;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+aside {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+aside p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+main h1 {
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+main p {
+    line-height: 1.6;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: #fff;
+    margin-top: 20px;
+}
+
+@media(max-width: 768px) {
+    .intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro p {
+        font-size: 1.2rem;
+    }
+
+    #about, #projects, #contact {
+        padding: 40px 20px;
+    }
+}
+
+
